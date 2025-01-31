@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Application", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sopping.Domain", "src\Core\Sopping.Domain\Sopping.Domain.csproj", "{A73CE288-97F0-4E00-8995-1B8A2EBC7B25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Identity", "src\Infrastructure\Shopping.Identity\Shopping.Identity.csproj", "{58B845E8-0D5F-4E82-BBE4-517F3FEF474A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{A73CE288-97F0-4E00-8995-1B8A2EBC7B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A73CE288-97F0-4E00-8995-1B8A2EBC7B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A73CE288-97F0-4E00-8995-1B8A2EBC7B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B845E8-0D5F-4E82-BBE4-517F3FEF474A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B845E8-0D5F-4E82-BBE4-517F3FEF474A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B845E8-0D5F-4E82-BBE4-517F3FEF474A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B845E8-0D5F-4E82-BBE4-517F3FEF474A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,5 +63,6 @@ Global
 		{1F789028-E760-4BE1-97D2-594CD900ADCE} = {48952C31-815C-466F-9E14-DBBE121C5878}
 		{424A122A-2271-49E7-A8A9-48AE02661750} = {80957178-9873-4997-A995-6A73FDEBE51C}
 		{A73CE288-97F0-4E00-8995-1B8A2EBC7B25} = {80957178-9873-4997-A995-6A73FDEBE51C}
+		{58B845E8-0D5F-4E82-BBE4-517F3FEF474A} = {82E41433-8E19-4172-8E60-6514E78C6165}
 	EndGlobalSection
 EndGlobal
