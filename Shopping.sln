@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Identity", "src\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Persistance", "src\Infrastructure\Shopping.Persistance\Shopping.Persistance.csproj", "{80141233-3A92-4F49-9636-6737A36D62B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Infrastructure", "src\Infrastructure\Shopping.Infrastructure\Shopping.Infrastructure.csproj", "{76BB400D-D778-4EB7-B8BF-1087414DE2FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{80141233-3A92-4F49-9636-6737A36D62B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80141233-3A92-4F49-9636-6737A36D62B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80141233-3A92-4F49-9636-6737A36D62B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BB400D-D778-4EB7-B8BF-1087414DE2FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BB400D-D778-4EB7-B8BF-1087414DE2FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BB400D-D778-4EB7-B8BF-1087414DE2FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BB400D-D778-4EB7-B8BF-1087414DE2FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +77,6 @@ Global
 		{A73CE288-97F0-4E00-8995-1B8A2EBC7B25} = {80957178-9873-4997-A995-6A73FDEBE51C}
 		{58B845E8-0D5F-4E82-BBE4-517F3FEF474A} = {82E41433-8E19-4172-8E60-6514E78C6165}
 		{80141233-3A92-4F49-9636-6737A36D62B2} = {82E41433-8E19-4172-8E60-6514E78C6165}
+		{76BB400D-D778-4EB7-B8BF-1087414DE2FE} = {82E41433-8E19-4172-8E60-6514E78C6165}
 	EndGlobalSection
 EndGlobal
