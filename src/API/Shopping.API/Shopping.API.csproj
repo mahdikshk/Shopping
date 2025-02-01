@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Contracts" Version="2.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Shopping.Application\Shopping.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Sopping.Domain\Sopping.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Shopping.Identity\Shopping.Identity.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Shopping.Infrastructure\Shopping.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Shopping.Persistance\Shopping.Persistance.csproj" />
   </ItemGroup>
 
 </Project>
